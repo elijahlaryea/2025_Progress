@@ -1,0 +1,18 @@
+.nav-container {
+  min-height: 100vh;
+  width: 350px;
+  background: lightcyan;
+}
+
+.menu-item {
+  display: flex;
+  cursor: pointer;
+  gap: 15px;
+  align-items: center;
+}
+
+.list-container {
+  list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

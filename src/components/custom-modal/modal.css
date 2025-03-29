@@ -1,0 +1,24 @@
+.wrapper {
+  margin-left: 50px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.close-button {
+  cursor: pointer;
+}
+
+@keyframes animateModal {
+  from {
+    top: -200px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
